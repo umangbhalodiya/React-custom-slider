@@ -53,7 +53,7 @@ function App() {
               <h4>{name}</h4>
               <p className="title">{title}</p>
               <p className="text">{quote}</p>
-              <FaQuoteRight className="icon" />
+              <FaQuoteRight className="icon" styles={{ color: "white" }} />
             </article>
           );
         })}
